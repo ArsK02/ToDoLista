@@ -1,0 +1,46 @@
+<div class="todo">
+  <div class="todo__wrapper container">
+    <h1 class="todo__page-title">ToDoLista</h1>
+
+    <input type="text" class="todo__input" placeholder="¿Qué necesitas hacer?" (keyup.enter)="addTodo()"
+      [(ngModel)]="todoTitle">
+    <button type="button" class="button button--add-todo" (click)="addTodo()">Añadir</button>
+
+    <div class="todo__counter">
+      <p class="todo__counter-text">Quedan: {{remaining()}} tareas</p>
+    </div>
+
+    <ul class="todo__list">
+      <li class="todo__item" *ngFor="let todo of todos" [class.todo__item--completed]="todo.completed">
+        <input class="todo__item-checkbox visually-hidden" id="compleate-checkbox{{todo.id}}" type="checkbox"
+          (change)="updateTodo(todo, todo.completed = !todo.completed)" [checked]="todo.completed">
+        <label for="compleate-checkbox{{todo.id}}" class="todo__item-label" tabindex="0"></label>
+
+        <div class="todo__item-wrapper">
+          <p class="todo__item-title" *ngIf="!todo.editing; else editingTodo" (dblclick)="editTodo(todo)">
+            {{ todo.title }}</p>
+
+          <ng-template #editingTodo>
+            <textarea rows="1" class="todo__item-title todo__edit-field" [(ngModel)]="todo.title"
+              (blur)="updateTodo(todo, todo.editing = !todo.editing)"
+              (keyup.enter)="updateTodo(todo, todo.editing = !todo.editing)" (keyup.esc)="cancelEdit(todo)"
+              autofocus></textarea>
+          </ng-template>
+
+          <div class="todo__buttons">
+            <button type="button" class="button button--edit" *ngIf="!todo.editing" (click)="editTodo(todo)">
+              <svg width="24" height="24" viewBox="0 0 48 48">
+                <path fill="#212121"
+                  d="M6 34.5V42h7.5l22.13-22.13-7.5-7.5L6 34.5zm35.41-20.41c.78-.78.78-2.05 0-2.83l-4.67-4.67c-.78-.78-2.05-.78-2.83 0l-3.66 3.66 7.5 7.5 3.66-3.66z" />
+              </svg>
+              <span class="visually-hidden">Editar</span>
+            </button>
+
+            <button type="button" class="button button--delete" *ngIf="!todo.editing"
+              (click)="deleteTodo(todo.id)"><span class="visually-hidden">Borrar</span></button>
+          </div>
+        </div>
+      </li>
+    </ul>
+  </div>
+</div>

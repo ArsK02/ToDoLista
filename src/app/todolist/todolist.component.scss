@@ -1,4 +1,4 @@
-@import "../../variables.scss";
+@import "~src/variables.scss";
 
 .todo {
   color: $dark;
@@ -196,7 +196,7 @@
   width: 35px;
   height: 35px;
 
-  background-image: url("../../assets/checkmark.svg");
+  background-image: url("~src/assets/checkmark.svg");
   background-repeat: no-repeat;
   background-size: cover;
 }
@@ -238,6 +238,8 @@
 }
 
 .todo__buttons {
+  display: flex;
+  align-items: center;
   margin-left: auto;
 }
 

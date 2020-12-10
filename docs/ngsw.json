@@ -1,23 +1,23 @@
 {
   "configVersion": 1,
-  "timestamp": 1607469905092,
-  "index": "”https://arsk02.github.io/ToDoLista/”/index.html",
+  "timestamp": 1607638478781,
+  "index": "https://arsk02.github.io/ToDoLista/index.html",
   "assetGroups": [
     {
       "name": "app",
       "installMode": "prefetch",
       "updateMode": "prefetch",
       "urls": [
-        "”https://arsk02.github.io/ToDoLista/”/favicon.ico",
-        "”https://arsk02.github.io/ToDoLista/”/index.html",
-        "”https://arsk02.github.io/ToDoLista/”/main-es2015.fa7c5f3d44bb4feec648.js",
-        "”https://arsk02.github.io/ToDoLista/”/main-es5.fa7c5f3d44bb4feec648.js",
-        "”https://arsk02.github.io/ToDoLista/”/manifest.webmanifest",
-        "”https://arsk02.github.io/ToDoLista/”/polyfills-es2015.690002c25ea8557bb4b0.js",
-        "”https://arsk02.github.io/ToDoLista/”/polyfills-es5.9e286f6d9247438cbb02.js",
-        "”https://arsk02.github.io/ToDoLista/”/runtime-es2015.1eba213af0b233498d9d.js",
-        "”https://arsk02.github.io/ToDoLista/”/runtime-es5.1eba213af0b233498d9d.js",
-        "”https://arsk02.github.io/ToDoLista/”/styles.89992bf003caa8db5991.css"
+        "https://arsk02.github.io/ToDoLista/favicon.ico",
+        "https://arsk02.github.io/ToDoLista/index.html",
+        "https://arsk02.github.io/ToDoLista/main-es2015.fa7c5f3d44bb4feec648.js",
+        "https://arsk02.github.io/ToDoLista/main-es5.fa7c5f3d44bb4feec648.js",
+        "https://arsk02.github.io/ToDoLista/manifest.webmanifest",
+        "https://arsk02.github.io/ToDoLista/polyfills-es2015.690002c25ea8557bb4b0.js",
+        "https://arsk02.github.io/ToDoLista/polyfills-es5.9e286f6d9247438cbb02.js",
+        "https://arsk02.github.io/ToDoLista/runtime-es2015.1eba213af0b233498d9d.js",
+        "https://arsk02.github.io/ToDoLista/runtime-es5.1eba213af0b233498d9d.js",
+        "https://arsk02.github.io/ToDoLista/styles.89992bf003caa8db5991.css"
       ],
       "patterns": [
         "https:\\/\\/fonts\\.googleapis\\.com\\/css2\\?family=Niramit:wght@400;700&amp;display=swap"
@@ -28,44 +28,28 @@
       "installMode": "lazy",
       "updateMode": "prefetch",
       "urls": [
-        "”https://arsk02.github.io/ToDoLista/”/assets/checkmark.svg",
-        "”https://arsk02.github.io/ToDoLista/”/assets/icon-edit.svg",
-        "”https://arsk02.github.io/ToDoLista/”/assets/icons/icon-128x128.png",
-        "”https://arsk02.github.io/ToDoLista/”/assets/icons/icon-144x144.png",
-        "”https://arsk02.github.io/ToDoLista/”/assets/icons/icon-152x152.png",
-        "”https://arsk02.github.io/ToDoLista/”/assets/icons/icon-192x192.png",
-        "”https://arsk02.github.io/ToDoLista/”/assets/icons/icon-384x384.png",
-        "”https://arsk02.github.io/ToDoLista/”/assets/icons/icon-512x512.png",
-        "”https://arsk02.github.io/ToDoLista/”/assets/icons/icon-72x72.png",
-        "”https://arsk02.github.io/ToDoLista/”/assets/icons/icon-96x96.png",
-        "”https://arsk02.github.io/ToDoLista/”/checkmark.f5547efdf4584b1e464b.svg"
+        "https://arsk02.github.io/ToDoLista/assets/checkmark.svg",
+        "https://arsk02.github.io/ToDoLista/assets/icon-edit.svg",
+        "https://arsk02.github.io/ToDoLista/checkmark.f5547efdf4584b1e464b.svg"
       ],
       "patterns": []
     }
   ],
   "dataGroups": [],
   "hashTable": {
-    "”https://arsk02.github.io/ToDoLista/”/assets/checkmark.svg": "9ed1ba830761062b554686e776e8b170a7c14d1f",
-    "”https://arsk02.github.io/ToDoLista/”/assets/icon-edit.svg": "bde0391d0da9da3dd68a936699fc075e334b70cc",
-    "”https://arsk02.github.io/ToDoLista/”/assets/icons/icon-128x128.png": "dae3b6ed49bdaf4327b92531d4b5b4a5d30c7532",
-    "”https://arsk02.github.io/ToDoLista/”/assets/icons/icon-144x144.png": "b0bd89982e08f9bd2b642928f5391915b74799a7",
-    "”https://arsk02.github.io/ToDoLista/”/assets/icons/icon-152x152.png": "7479a9477815dfd9668d60f8b3b2fba709b91310",
-    "”https://arsk02.github.io/ToDoLista/”/assets/icons/icon-192x192.png": "1abd80d431a237a853ce38147d8c63752f10933b",
-    "”https://arsk02.github.io/ToDoLista/”/assets/icons/icon-384x384.png": "329749cd6393768d3131ed6304c136b1ca05f2fd",
-    "”https://arsk02.github.io/ToDoLista/”/assets/icons/icon-512x512.png": "559d9c4318b45a1f2b10596bbb4c960fe521dbcc",
-    "”https://arsk02.github.io/ToDoLista/”/assets/icons/icon-72x72.png": "c457e56089a36952cd67156f9996bc4ce54a5ed9",
-    "”https://arsk02.github.io/ToDoLista/”/assets/icons/icon-96x96.png": "3914125a4b445bf111c5627875fc190f560daa41",
-    "”https://arsk02.github.io/ToDoLista/”/checkmark.f5547efdf4584b1e464b.svg": "9ed1ba830761062b554686e776e8b170a7c14d1f",
-    "”https://arsk02.github.io/ToDoLista/”/favicon.ico": "22f6a4a3bcaafafb0254e0f2fa4ceb89e505e8b2",
-    "”https://arsk02.github.io/ToDoLista/”/index.html": "fe1ad7cff438befe745328ce9cf5ea6c8dd074fb",
-    "”https://arsk02.github.io/ToDoLista/”/main-es2015.fa7c5f3d44bb4feec648.js": "b66ac2fa9b6a3fd4b9a54f3d09dd3c8a028f80c8",
-    "”https://arsk02.github.io/ToDoLista/”/main-es5.fa7c5f3d44bb4feec648.js": "6485b8b95f67df78a970e3f3244e5326f98e110b",
-    "”https://arsk02.github.io/ToDoLista/”/manifest.webmanifest": "9570469953a341476f51f93a00eca1c61e005848",
-    "”https://arsk02.github.io/ToDoLista/”/polyfills-es2015.690002c25ea8557bb4b0.js": "72ad4ccc0a3916ae4598199447cdeadd6d380570",
-    "”https://arsk02.github.io/ToDoLista/”/polyfills-es5.9e286f6d9247438cbb02.js": "8aa26ea87b9958c6bd13b7c257c0e9940438e684",
-    "”https://arsk02.github.io/ToDoLista/”/runtime-es2015.1eba213af0b233498d9d.js": "a9aafcf49f49145093fc831efd9b8e2f6c71bb9c",
-    "”https://arsk02.github.io/ToDoLista/”/runtime-es5.1eba213af0b233498d9d.js": "a9aafcf49f49145093fc831efd9b8e2f6c71bb9c",
-    "”https://arsk02.github.io/ToDoLista/”/styles.89992bf003caa8db5991.css": "7b16624df6478ddcd53a748749ce4335342dd343"
+    "https://arsk02.github.io/ToDoLista/assets/checkmark.svg": "9ed1ba830761062b554686e776e8b170a7c14d1f",
+    "https://arsk02.github.io/ToDoLista/assets/icon-edit.svg": "bde0391d0da9da3dd68a936699fc075e334b70cc",
+    "https://arsk02.github.io/ToDoLista/checkmark.f5547efdf4584b1e464b.svg": "9ed1ba830761062b554686e776e8b170a7c14d1f",
+    "https://arsk02.github.io/ToDoLista/favicon.ico": "22f6a4a3bcaafafb0254e0f2fa4ceb89e505e8b2",
+    "https://arsk02.github.io/ToDoLista/index.html": "3d4528822d705241ba1df781a3566accc367b4e7",
+    "https://arsk02.github.io/ToDoLista/main-es2015.fa7c5f3d44bb4feec648.js": "b66ac2fa9b6a3fd4b9a54f3d09dd3c8a028f80c8",
+    "https://arsk02.github.io/ToDoLista/main-es5.fa7c5f3d44bb4feec648.js": "6485b8b95f67df78a970e3f3244e5326f98e110b",
+    "https://arsk02.github.io/ToDoLista/manifest.webmanifest": "9570469953a341476f51f93a00eca1c61e005848",
+    "https://arsk02.github.io/ToDoLista/polyfills-es2015.690002c25ea8557bb4b0.js": "72ad4ccc0a3916ae4598199447cdeadd6d380570",
+    "https://arsk02.github.io/ToDoLista/polyfills-es5.9e286f6d9247438cbb02.js": "8aa26ea87b9958c6bd13b7c257c0e9940438e684",
+    "https://arsk02.github.io/ToDoLista/runtime-es2015.1eba213af0b233498d9d.js": "a9aafcf49f49145093fc831efd9b8e2f6c71bb9c",
+    "https://arsk02.github.io/ToDoLista/runtime-es5.1eba213af0b233498d9d.js": "a9aafcf49f49145093fc831efd9b8e2f6c71bb9c",
+    "https://arsk02.github.io/ToDoLista/styles.89992bf003caa8db5991.css": "7b16624df6478ddcd53a748749ce4335342dd343"
   },
   "navigationUrls": [
     {
